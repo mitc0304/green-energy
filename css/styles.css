@@ -1,0 +1,136 @@
+/* DEFAULT STYLES */
+
+h1 {
+  font-family: 'Baloo Chettan', cursive;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-family: 'Baloo Chettan', cursive;
+  font-size: 1.5rem;
+  margin: 10px 3px 10px 0;
+}
+
+a, p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+header nav {
+  padding: 5px;
+  margin: 15px 0 15px 0;
+}
+
+header nav li a {
+  color: black;
+}
+
+header nav li a:hover {
+  border-bottom: 2px solid green;
+}
+
+button {
+  width: 30%;
+  padding: 10px 0 10px 0;
+  font-family: 'Baloo Chettan', cursive;
+  font-size: 1rem;
+  background-color: #134F31;
+  opacity: .5;
+}
+
+#active {
+  background-color: #134F31;
+  color: white;
+  opacity: 1;
+  border-bottom: 2px solid #012F31;
+}
+
+li {
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+}
+
+footer nav li {
+  display: inline-block;
+  text-align: center;
+  width: 32%;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+i {
+  color: #134F31;
+}
+
+img {
+  border-radius: 15px;
+  box-shadow: 5px 10px #888888;
+}
+
+/* MOBILE */
+
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 2rem;
+  }
+
+  header nav li {
+    padding: 10px;
+  }
+
+  img {
+    width: 100%;
+    margin: auto;
+  }
+
+  p {
+    padding: 20px 0 20px 0;
+  }
+
+}
+
+/* TABLET AND DESKTOP */
+
+@media only screen and (min-width: 600px) {
+
+  h1 {
+    margin: 2rem;
+  }
+
+  h2 {
+    padding: 15px 0 15px 0;
+  }
+
+  main {
+    margin-left: 2rem;
+  }
+
+  header nav {
+    padding-bottom: 20px;
+}
+
+  header nav li {
+    float: left;
+    text-align: center;
+    width: 25%;
+  }
+
+  img {
+    width: 25%;
+    float: left;
+  }
+
+  p {
+    width: 80%;
+    padding-top: 30px;
+    margin-left: 10px;
+    transform: translate(20px);
+  }
+}
